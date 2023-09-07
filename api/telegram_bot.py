@@ -3,10 +3,6 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, filters, Conve
 from django.conf import settings
 from .models import Message, Token, CustomUser
 
-# Define conversation states if needed
-# STATE1 = 1
-
-# Define conversation handlers if needed
 
 def get_telegram_bot(user):
     try:
